@@ -4,4 +4,6 @@ WORKDIR /opt/autokeras
 COPY requirements.txt /opt/autokeras/
 RUN pip install -r requirements.txt
 COPY . /opt/autokeras/
-CMD python autokeras.py
+RUN chmod +x start.sh
+ENTRYPOINT ["./start.sh"]
+CMD []
