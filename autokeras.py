@@ -1,9 +1,7 @@
-from imageai.Detection import ObjectDetection
 import requests
 import os
 import sys
-from autokeras.pretrained.object_detector import ObjectDetector
-
+from autokeras_pretrained.object_detector import ObjectDetector
 
 FILE = 'image.jpg'
 dFILE = os.path.join('data', FILE)
