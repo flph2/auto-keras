@@ -1,4 +1,1 @@
-numpy
-pandas
-tensorflow
-autokeras
+autokeras_pretrained
