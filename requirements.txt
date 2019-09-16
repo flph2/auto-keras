@@ -1,1 +1,2 @@
+numpy
 autokeras_pretrained
