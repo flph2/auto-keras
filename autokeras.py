@@ -7,7 +7,7 @@ FILE = 'image.jpg'
 dFILE = os.path.join('data', FILE)
 
 def download_image(url):
-    img_data = requests.get(url).content
+    img_data = requests.get(url, verify=False).content
     with open(dFILE, 'wb') as handler:
         handler.write(img_data)
 
