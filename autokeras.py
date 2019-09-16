@@ -15,7 +15,7 @@ def run_model():
 
     execution_path = os.getcwd()
     detector = ObjectDetector()
-    source = os.path.join(execution_path, 'data' , dFILE)
+    source = os.path.join(execution_path, 'data' , FILE)
     dest = output_file_path=output_image_path=os.path.join(execution_path ,'data')
     results = detector.predict(source, output_file_path=dest)
 
