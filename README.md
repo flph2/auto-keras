@@ -14,6 +14,6 @@ Exemplo:
 if you need to see the image result with all detected objects, run docker mounting /opt/imageai/data/ as a volume
 ```
 mkdir data
-docker run -v "$(pwd)"/data:/opt/imageai/data autokeras "$IMAGE_URL"
+docker run -v "$(pwd)"/data:/opt/autokeras/data autokeras "$IMAGE_URL"
 ``` 
 
